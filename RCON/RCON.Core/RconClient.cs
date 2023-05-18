@@ -5,7 +5,7 @@ using System.Net.Sockets;
 
 namespace RCON.Core
 {
-    public delegate T RconFormmater<T>(string command, int ID, List<Packet> result);
+    public delegate T RconFormatter<T>(string command, int ID, List<Packet> result);
 
     public class RconClient
     {
@@ -72,10 +72,10 @@ namespace RCON.Core
             return await GetResponse(ID, timeout);
         }
 
-        public async Task<T> ExecCommandAsync<T>(string command, int ID, RconFormmater<T> formmater, int timeout = 5000)
+        public async Task<T> ExecCommandAsync<T>(string command, int ID, RconFormatter<T> formatter, int timeout = 5000)
         {
             var res = await ExecCommandAsync(command, ID, timeout);
-            return formmater(command, ID, res);
+            return formatter(command, ID, res);
         }
 
         // 100 is reserved ID for Auth
