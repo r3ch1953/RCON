@@ -3,10 +3,25 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageId>r3ch1953.RCON</PackageId>
+    <Title>RCON </Title>
+    <Version>1.0.0</Version>
+    <Authors>r3ch1953</Authors>
+    <Product>RCON</Product>
+    <Description>Source RCON Protocol implemantaion in C# for Minecraft server</Description>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/r3ch1953/RCON</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/r3ch1953/RCON</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="NLog" Version="5.1.4" />
+    <PackageReference Include="Nuget.CommandLine" Version="6.5.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="System.IO.Pipelines" Version="7.0.0" />
   </ItemGroup>
 
