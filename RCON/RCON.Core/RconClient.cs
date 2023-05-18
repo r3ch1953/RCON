@@ -2,7 +2,6 @@
 using System.Buffers;
 using System.IO.Pipelines;
 using System.Net.Sockets;
-using System.Reflection.PortableExecutable;
 
 namespace RCON.Core
 {
@@ -132,7 +131,6 @@ namespace RCON.Core
 
         private async Task FillPipeAsync(PipeWriter writer)
         {
-
             while (true)
             {
                 // 14 is minimum size for any packet
