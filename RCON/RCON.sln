@@ -5,8 +5,6 @@ VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCON.Core", "RCON.Core\RCON.Core.csproj", "{9E9A8728-4DEC-4891-B2FA-4BA82DACAC01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCON.Test", "RCON.Test\RCON.Test.csproj", "{7DDA871D-615A-428F-A60A-8720BDDB34B8}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{9E9A8728-4DEC-4891-B2FA-4BA82DACAC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E9A8728-4DEC-4891-B2FA-4BA82DACAC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E9A8728-4DEC-4891-B2FA-4BA82DACAC01}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7DDA871D-615A-428F-A60A-8720BDDB34B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7DDA871D-615A-428F-A60A-8720BDDB34B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7DDA871D-615A-428F-A60A-8720BDDB34B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7DDA871D-615A-428F-A60A-8720BDDB34B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
