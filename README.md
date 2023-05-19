@@ -9,7 +9,7 @@ RconClient client = new RconClient();
 ```
 Connect to the server
 ```C#
-await client.ConnectAsync("id addr", port);
+await client.ConnectAsync("ip", port);
 ```
 Authenticate
 ```C#
